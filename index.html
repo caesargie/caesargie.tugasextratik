@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>ExtraTIK</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+<script src="assets/js/main.js"></script>
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link href="assets/img/Logo HIMATIK.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/Logo HIMATIK.png" width="40"><h1 class="sitename">ExtraTIK</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="link-light">Home</a></li>
+          <li><a href="#about"class="link-light">About</a></li>
+          <li><a href="#services"class="link-light">InforCom</a></li>
+          <li><a href="#portfolio"class="link-light">Gallery</a></li>
+          <li><a href="#developer"class="link-light">Developer</a></li>
+          <li class="dropdown"><a href="#"class="link-light"><span>Absensi</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="https://academia.pnj.ac.id/">Academia</a></li>
+              <li><a href="https://elearning.pnj.ac.id/">E-learning</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact"class="link-light">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+  <section id="hero" class="hero section bg-dark bg-opacity-50">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>Better Solutions For Your Explorating</h1>
+            <p>Web Developer making websites for informatics student</p>
+            <div class="d-flex">
+              <a href="https://www.youtube.com/@HIMATIKPNJ" class="btn btn-primary bg-opacity-50"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/Logo HIMATIK.png" width="500" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="clients" class="clients section light-background">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 120
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+        </div>
+
+      </div>
+
+    </section>
+    <section id="about" class="about section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+      </div>
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p align="justify">
+              Website penyedia informasi bagi mahasiswa Teknik Informatika dan Komputer memegang peranan vital sebagai jembatan penghubung antara mahasiswa dengan perkembangan teknologi terkini. Platform ini tidak hanya menyediakan materi pembelajaran dan tutorial yang terstruktur, tetapi juga membantu mahasiswa mendapatkan informasi terbaru tentang peluang magang, lowongan kerja, kompetisi pemrograman, dan berbagai event teknologi yang dapat mengembangkan kemampuan mereka. Melalui website semacam ini, mahasiswa dapat dengan mudah mengakses berbagai sumber daya pembelajaran seperti dokumentasi bahasa pemrograman, framework terbaru, serta tips dan trik dalam pengembangan software.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>Update Lomba</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Info Beasiswa</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Info Loker</span></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <p align="justify">Selain itu, website informatif ini juga berperan sebagai wadah kolaborasi dan pertukaran ide antar mahasiswa Teknik Informatika dan Komputer dari berbagai institusi. Para mahasiswa dapat berbagi pengalaman, mendiskusikan solusi atas permasalahan coding, dan membangun jaringan profesional yang bermanfaat untuk karir masa depan mereka.Fitur-fitur seperti forum diskusi, repository code sharing, dan blog komunitas memungkinkan terjadinya pembelajaran kolaboratif yang efektif, dimana mahasiswa tidak hanya belajar dari materi yang tersedia, tetapi juga dari pengalaman dan pengetahuan rekan-rekan mereka di bidang yang sama.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <section id="why-us" class="section why-us light-background" data-builder="section">
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3><strong>Jurusan Teknik Informatika dan Komputer</strong></h3>
+              <p>
+                Jurusan Teknik Informatika dan Komputer (TIK) diresmikan pada 2 Juni 2014 yang bertujuan untuk menghasilkan lulusan sarjana sains terapan yang berpengalaman dan mampu memecahkan masalah dalam bidang Teknik Informatika dan Komputer dengan menganalisis, merancang dan membangun sistem.
+                <br><br>
+                Selain itu terdapat program kerjasama baik dalam negeri maupun luar negeri. Kelas program kerja sama dalam negeri yang diselenggarakan oleh jurusan TIK bekerja sama dengan B2PKLN Cevest Bekasi dan bekerja sama dengan CCIT Fakutas Teknik Universitas Indonesia. Sedangkan kerja sama dengan luar negeri antara Jurusan TIK dengan Asia e-University Malaysia adalah Teknik Informatika AeU dan Tekik Multimedia dan Jaringan AeU
+                <br><br>
+                Saat ini Jurusan Teknik Informatika dan Komputer memiliki empat program studi yaitu Teknik Informatika, Teknik Multimedia dan Jaringan, Teknik  Multimedia Digital dan Teknik Komputer dan Jaringan.
+              </p>
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="faq-item faq-active">
+
+                <h3><span>01</span>Program Studi Teknik Informatika (TI)</h3>
+                <div class="faq-content">
+                  <p>Merupakan program pendidikan Sarjana Sains Terapan (S.ST) untuk jenjang Diploma IV pendidikan vokasi. Dengan waktu tempuh penyelesaian studi 4 tahun sama dengan program sarjana (S1).
+                  Program Studi Teknik Informatika ini mendapatkan ijin dari Dikti pada tanggal 17 Desember 2010. Dengan surat Keputusan Menteri Pendidikan Nasional Republik Indonesia Nomor : 217/D/O/2010. Program Studi ini menawarkan program reguler untuk lulusan SMA IPA dan SMK bidang Teknik Elektro atau Teknik Informatika.
+                  Lulusannya dapat bekerja mandiri sebagai Tenaga Kerja TIK (Programmer) yang dapat menganalisa, merancang dan membangun sistem informasi berskala enterprise berdasarkan keahlian dalam bidang basis data dan jaringan.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <div class="faq-item">
+                <h3><span>02</span>Program Studi Teknik Multimedia dan Jaringan (TMJ)</h3>
+                <div class="faq-content">
+                  <p> Merupakan pendidikan vokasi jenjang Diploma IV program pendidikan Sarjana Sains Terapan (S.ST) yang menawarkan program reguler bagi lulusan SMA IPA dan SMK bidang teknik komputer jaringan/teknik elektro/teknik informatika. Program ini dikonsentrasikan pada bidang Teknik Multimedia dan Jaringan, yang bertujuan untuk mendidik para mahasiswa mempunyai kemampuan menginstalasi jaringan komputer yang berskala Intranet, WAN, dan Internet, mampu menganalisis keamanan jaringan/sistem dan membuat sistem keamanan, membuat sistem IoT/embedded system, dan juga mampu merancang bentuk-bentuk tampilan dashbord yang dapat diaplikasikan pada sistem IoT maupun sistem keamanan jaringan. 
+                </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <div class="faq-item">
+                <h3><span>03</span>Program Studi Teknik Multimedia Digital (TMD)</h3>
+                <div class="faq-content">
+                  <p>Merupakan program pendidikan Sarjana Sains Terapan (S.ST) untuk jenjang Diploma IV pendidikan vokasi. Dengan waktu tempuh penyelesaian studi 4 tahun sama dengan program sarjana (S1).  Program Studi S1 Terapan Teknik Multimedia Digital  diselenggarakan tahun 2015 berdasarkan mandat Dirjen Pendidikan Tinggi berdasarkan surat nomor No. 106/E.E2/DT/2014  tanggal 14 Februari 2014 dan keputusan Menteri Pendidikan Nasional Republik Indonesia Nomor: 105/M/Kp/III/2015. Program studi ini memiliki kelas reguler dan kelas kerja sama dengan institusi pendidikan lainnya. Institusi pendidikan lain yang bekerjasama yaitu Management Science University (MSU)-Malaysia dan Asie E University (AeU). Program Studi Teknik Multimedia Digital  bertujuan menghasilkan lulusan yang berpengalaman dengan profil lulusan sebagai Multimedia developer, Game Developer  dan Animator.  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <div class="faq-item">
+                <h3><span>04</span>Program Studi Teknik Komputer dan Jaringan (TKJ)</h3>
+                <div class="faq-content">
+                  <p> Program Diploma 1 TKJ PNJ merupakan salah satu jawaban atas tingginya kebutuhan tenaga terampil bidang teknologi informasi dan komunikasi (TIK) di Indonesia. Berdasarkan data dari Asosiasi Perguruan Tinggi Informatika dan Komputer yang menyatakan bahwa dari sekitar 200 perguruan tinggi negeri dan swasta dalam bidang TIK baru menghasilkan sekitar 25.000 lulusan setiap tahunnya, padahal kebutuhan tenaga kerja TIK di bidang industri saja sekitar 500.000 per tahun.
+                  <br><br>
+                  Dengan demikian lulusan yang tersedia untuk memenuhi kebutuhan dunia kerja khususnya dibidang TIK baru berkisar 5%. Sedangkan menurut data dari http://www.edukasi.net proyeksi jumlah mahasiswa Perguruan Tinggi di Indonesia tahun 1995-2020 memiliki rata-rata peningkatan sekitar 304 orang per 5 tahun untuk PTN dan 660 orang untuk PTS, maka lulusan bidang TI masih sangat terbatas.
+                  <br><br>
+                  Kebutuhan dunia kerja dalam bidang TIK yang profesional sangat tinggi, namun ketersediaan lulusan hanya sekitar 5%. Hal ini memperlihatkan minat yang tinggi dari masyarakat untuk memperoleh kesempatan mengikuti pendidikan bidang TIK sementara baru dapat ditampung sekitar 4,56%, maka pembukaan Program DI Teknik Komputer dan Jaringan pada Jurusan Teknik Informatika dan Komputer PNJ merupakan suatu cara dalam memenuhi dan menyiapkan sumber daya manusia professional dalam bidang TIK di masyarakat.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="assets/img/why-us.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <section id="services" class="services section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>InforCom</h2>
+        <p>Wadah Eksplorasi kehidupan kegiatan Anak TIK di kampus Politeknik Negeri Jakarta</p>
+      </div>
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-person-workspace"></i></div>
+              <h4><a href="https://www.kitalulus.com/lowongan/posisi/it?sort_by=isHighlighted" class="stretched-link">Info Loker</a></h4>
+              <p>Berbagai macam profesi yang Anda cari ada disini semua!</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="https://www.cscpnj.com/division" class="stretched-link">Computer Student Club</a></h4>
+              <p>Temukan Minat dan Bakat Mu disini!<br>#UnlimitedConnectionID</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-android"></i></div>
+              <h4><a href="#" class="stretched-link">SahabatPNJ</a></h4>
+              <p>Mainkan Imajinasi mu Disini!<br>#BeCreativeInYourWay!</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="https://luarkampus.id/beasiswa?year=2024&month=10" class="stretched-link">Beasiswa</a></h4>
+              <p>Ingatt,Catat tanggalnya,Jangan Sampai lupa!</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-trophy-fill"></i></div>
+              <h4><a href="https://its.id/m/PortalLombaSertifikasiIT" class="stretched-link">Info Lomba</a></h4>
+              <p>Temukan dan Raih Prestasi mu disini!</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/banner1.jpg" alt="">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Visi</h3>
+            <p align="justify">Menjadi Jurusan bertaraf internasional untuk mendukung daya saing bangsa dalam bidang Informatika dan Komputer.</p>
+            <h3>Misi</h3>
+            <p align="justify"> Menyelenggarakan Pendidikan Vokasi yang berbasis ilmu pengetahuan, teknologi, rekayasa dan seni yang menghasilkan lulusan berkarakter dan  dan bertaqwa kepada Tuhan Yang Maha Esa
+
+            Mengembangkan penelitian, peningkatan, dan penerapan ilmu pengetahuan, teknologi, rekayasa dan seni serta produk inovasi berkualitas dalam bidang informatika dan komputer guna meningkatkan daya saing bangsa dan
+
+            Mengembangkan jurusan yang efisien, efektif dan akuntabel berbasis teknologi informasi dan komunikasi.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <section id="portfolio" class="portfolio section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Gallery</h2>
+        <p>Dokumentasi kegiatan TIK PNJ</p>
+      </div>
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Card</li>
+            <li data-filter=".filter-app">Card</li>
+            <li data-filter=".filter-product">Card</li>
+            <li data-filter=".filter-branding">Card</li>
+          </ul>
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <a href="gallery1.html">
+              <img src="assets/img/masonry-portfolio/gambar1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>IC2IE 2024</h4>
+                <p>Menyongsong Inovasi Digital di Konferensi Internasional Informatika ke-7</p>
+                
+              </div>
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <a href="gallery1.html">
+              <img src="assets/img/masonry-portfolio/gambar2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>IC2IE 2024</h4>
+                <p>Menyongsong Inovasi Digital di Konferensi Internasional Informatika ke-7</p>
+                
+              </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <a href="gallery1.html">
+              <img src="assets/img/masonry-portfolio/gambar3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>IC2IE 2024</h4>
+                <p>Menyongsong Inovasi Digital di Konferensi Internasional Informatika ke-7</p>
+              </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <a href="gallery3.html">
+              <img src="assets/img/masonry-portfolio/gambar4.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Indonesia Technology and Innovation(INTI)</h4>
+                <p>Mahasiswa PNJ Perdana Ikut Bagian dalam INTI Expo 2024</p>
+              </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <a href="gallery3.html">
+              <img src="assets/img/masonry-portfolio/gambar5.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Indonesia Technology and Innovation(INTI)</h4>
+                <p>Mahasiswa PNJ Perdana Ikut Bagian dalam INTI Expo 2024</p>
+              </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <a href="gallery3.html">
+              <img src="assets/img/masonry-portfolio/gambar6.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Indonesia Technology and Innovation(INTI)</h4>
+                <p>Mahasiswa PNJ Perdana Ikut Bagian dalam INTI Expo 2024</p>
+              </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <a href="gallery2.html">
+              <img src="assets/img/masonry-portfolio/gambar7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>TIK EXPO 2024</h4>
+                <p>TIK Expo 2024 dan Perayaan Ulang Tahun ke 10 Jurusan TIK</p>
+              </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <a href="gallery2.html">
+              <img src="assets/img/masonry-portfolio/gambar8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>TIK EXPO 2024</h4>
+                <p>TIK Expo 2024 dan Perayaan Ulang Tahun ke 10 Jurusan TIK</p>
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <section id="Developer" class="team section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Developer</h2>
+        <p>Part Of TMJ </p>
+      </div>
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          
+         
+         
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/Developer/nugi.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Caesar Listyanto Nugroho</h4>
+                <span>(2407421067)</span>
+                <span>TMJ 1C</span>
+
+                <div class="social">
+                  <a href="https://www.instagram.com/caesargie_/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/caesar-listyanto-nugroho-16b28630b/"> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <section id="contact" class="contact section">
+
+      
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact Information</h2>
+        <p>Silahkan Hubungi Kami,berikan keluh kesah Anda</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Alamat</h3>
+                  <p>Jl. Prof. DR. G.A. Siwabessy, Kampus Universitas Indonesia Depok 16425</p>
+                </div>
+              </div>
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Phone</h3>
+                  <p>021-7270036</p>
+                </div>
+              </div>
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>tik@pnj.ac.id</p>
+                </div>
+              </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.180883831724!2d106.82143961476983!3d-6.370632695390142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec1cabb59bdf%3A0x28b4f84e4677f329!2sJakarta+State+Polytechnic!5e0!3m2!1sen!2sid!4v1548823643790" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+
+  <footer id="footer" class="footer">
+
+     <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow For More!</h4>
+          <div class="social-links d-flex">
+            <a href="https://www.twitter.com/"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">ExtraTIK</strong> <span>Caesar Listyanto Nugrohho Support by:TMJ 1C</span></p>
+      <div class="credits">
+        Designed by Caesar Listyanto Nugroho
+      </div>
+    </div>
+
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  
+  <div id="preloader"></div>
+
+  
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
